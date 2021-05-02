@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/parthdhwajendramishra/Images/blob/main/background.jpg?raw=true" width="100%"/>
+  <img src="https://github.com/parthdhwajendramishra/Images/blob/main/background.jpg?raw=true"  height="300" width="100%"/>
 </p>
 
 # Devs-100-Ways-Of-Code-Playground
