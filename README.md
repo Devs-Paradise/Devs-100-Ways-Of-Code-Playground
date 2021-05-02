@@ -1,7 +1,3 @@
-# Devs-100-Ways-Of-Code-Playground
-This repository contain codes of different Programming Approaches and Algorithms.
-
-
 <p align="center">
   <img src="https://github.com/parthdhwajendramishra/Images/blob/main/background.jpg?raw=true" width="100%"/>
 </p>
