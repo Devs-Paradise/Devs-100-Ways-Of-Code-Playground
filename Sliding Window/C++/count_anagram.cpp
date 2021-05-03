@@ -1,3 +1,24 @@
+/*
+An anagram is a word or phrase formed by rearranging the 
+letters of a different word or phrase,typically using all
+the original letters exactly once.
+
+Example:
+Word: listen
+Anagram:silent
+ 
+We have to count all possible Anagrams of a word in a
+given string.
+
+Example:
+String: forxxorfxdofr
+Word: for
+
+Output: 3
+*/
+
+
+
 #include <iostream>
 #include <map>
 #include <cstring>
