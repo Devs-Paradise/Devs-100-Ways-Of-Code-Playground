@@ -29,6 +29,7 @@ You may go through these guidelines and contribute accordingly:
 
 
 # When You Write Code
+* Explain question in detail above your code with proper input and output using multiline comments.
 * Do not write your whole code in main function.
 * Break codes in as many as meaningful functions as possible.
 * Write proper comments to make your code meaningful and understandable.
