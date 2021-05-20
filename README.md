@@ -4,8 +4,8 @@
 
 # Devs-100-Ways-Of-Code-Playground
 
-> This repository contains code of diiferent Algorithms.
-If you are interested in learning Algorithms and how to write efficent code using different programming approaches join us. 
+> This repository contains code of diiferent Algorithms, Questions from different platforms.
+If you are interested in learning Algorithms and how to write efficent code using different programming approaches join us and push your solutions to this repo. 
 
 > Look how you can contribute here [Contribution Guidelines](#contribution-guidelines-gear) 
 
