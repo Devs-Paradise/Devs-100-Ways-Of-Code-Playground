@@ -20,7 +20,7 @@ You may go through these guidelines and contribute accordingly:
 * Strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
 * Just mention the issue against which the pull request is open by writing ```Fixes #(your issue number)``` in the description of the pull request
 * Do not update the [README.md](README.md).
-* Do not push any changes in the main branch. Always make a new branch with the number assosiated with you issue.
+* Do not push any changes in the main branch. Always make a new branch with the number associated with you issue.
 * Refer [Devs-Git-Cheatsheet](https://github.com/Devs-Paradise/Devs-Git-Cheatsheet) in order to learn how to create new branch, fix any error etc.
 
 
