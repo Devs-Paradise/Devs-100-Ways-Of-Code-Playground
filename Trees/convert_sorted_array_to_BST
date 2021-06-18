@@ -1,0 +1,82 @@
+//C++ program to create to create a Binary Search tree using sorted array given by the user and
+//printing the elements of binary search tree using inorder traversal
+
+#include<bits/stdc++.h>
+using namespace std;
+
+//class to create tree node
+class TreeNode
+{
+    public:
+    int data;
+    TreeNode* left;
+    TreeNode* right;
+
+    TreeNode(int val)
+    {
+        data = val;
+        left = NULL;
+        right = NULL;
+    }
+};
+
+//inorder function to print tree elements
+void inorder(TreeNode* root)
+{
+    if(root == NULL)
+        return;
+
+    inorder(root->left);
+    cout<<root->data<<" ";
+    inorder(root->right);
+}
+
+//main function to build tree
+TreeNode* makeTree(vector<int>& nums, int start, int end) {
+
+    //base case
+     if(start > end)
+        return NULL;
+        
+    //In a BST, inorder traversal is always sorted
+    //so, the mid element of vector will be the root node
+     int mid = (start+end)/2;
+     TreeNode* root = new TreeNode(nums[mid]);
+        
+    //recursively creating left subtree using left subpart of vector(before mid)
+     root->left = makeTree(nums,start,mid-1);
+     //recursively creating right subtree using right subpart of vector(after mid)
+     root->right = makeTree(nums,mid+1,end);
+        
+     return root;
+        
+}
+
+//Function calling another function to build tree
+TreeNode* sortedArrayToBST(vector<int>& nums) {
+        return makeTree(nums,0,nums.size()-1);
+}
+int main()
+{
+    //Input vector size
+    int n;
+    cin>>n;
+    
+    vector<int> a(n);
+
+    //Input "sorted" vector Elements
+    for(int i=0 ; i<n ; i++)
+    {
+        cin>>a[i];
+    }
+   
+    //Declaring root of tree as NULL
+    TreeNode* root = NULL;
+
+    //calling function to create BST
+    root = sortedArrayToBST(a);
+    
+    //Calling inorder() function to print tree elements using inorder traversal
+    inorder(root);
+    return 0;
+}
